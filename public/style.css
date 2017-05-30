@@ -1,0 +1,181 @@
+@font-face
+{
+	font-family: "Coolvetica";
+	src: url('coolvetica.ttf');
+}
+
+@font-face
+{
+	font-family: "Roboto";
+	src: url('roboto.ttf');
+}
+
+body 
+{
+	margin: auto;
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+#container
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header
+{
+	height: 40px;
+	background-color: #263238;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 25px;
+	padding-left: 12px;
+}
+
+header .mainLink
+{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-family: "Coolvetica", Helvetica, Arial, sans-serif;
+	font-size: 20pt;
+
+}
+
+
+header #menu
+{
+	display: flex;
+	flex-direction: rows;
+
+}
+header #menu a
+{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	margin-left: 25px;
+}
+
+header .mainLink:hover, header #menu a:hover
+{
+	color: #E0E0E0;
+}
+
+
+/* BANNER */
+#banner
+{
+	height: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner div .content
+{
+	color: #212121;
+	font-family: "Coolvetica", Helvetica, Arial, sans-serif;
+	font-size: 6vw;
+}
+
+#banner div .subcontent
+{
+	color: #424242;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 2vw;
+}
+
+/* PRESENTATION */
+
+#presentation
+{
+	background-color: #263238;
+	color: white;
+	font-family: "Roboto", Helvetica;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+#presentation div
+{
+	width: 35%;
+	padding: 25px;
+	text-align: justify;
+}
+
+/* EMPTY STYLE */
+
+#empty
+{
+	height: 80px;
+}
+
+/* KEYS STYLE */
+
+#keys
+{
+	background-color: #263238;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	padding-top: 10px;
+}
+
+#keys div
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+#keys div svg
+{
+	font-size: 5vw;
+}
+
+#keys div h3
+{
+	font-size: 14pt;
+	margin-top: -3px;
+}
+
+#keys div div
+{
+	text-align: center;
+	font-size: 11pt;
+}
+
+/* FORMULAIRE DU FOND */
+
+#back_form_container
+{
+	background-image: url("background2.jpg");
+	background-position: 0%;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 600px;
+}
+
+/* FOOTER */
+
+footer
+{
+	background-color: #263238;
+	color: white;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
